@@ -7,6 +7,11 @@ This document outlines how to build and run a Docker container that serves a sta
 
 ## 🐳 Dockerfile
 
+### 🔧 Create Docker File
+```bash
+code Dockerfile
+```
+
 ```Dockerfile
 FROM nginx:latest
 COPY index.html /usr/share/nginx/html/index.html
